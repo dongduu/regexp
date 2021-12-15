@@ -6,6 +6,7 @@ hi i'm dongduu
 abbcccdddd
 `
 
-//const regexp = new RegExp('o','g')
-const regexp = /o/gi
-console.log(str.match(regexp))
+const regexp = /dongduu/gi
+console.log(regexp.test(str)) // true 출력
+console.log(str.replace(regexp, 'dongju'))
+console.log(str)
